@@ -9,7 +9,7 @@ extern "C"
 {
 #endif
 
-    BOOL WGoogleGeoPos(
+    CORE_API BOOL WGoogleGeoPos(
         HINTERNET hConnect,
         const char *wStreet,
         const char *wStreetNumber,
